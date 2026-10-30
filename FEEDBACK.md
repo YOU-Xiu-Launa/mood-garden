@@ -2,66 +2,71 @@
 
 ## 1. Overview
 
-Mood Garden was designed as an interactive experience that allows users to express their emotional states through a digital garden. Rather than simply selecting or writing down emotions, users can adjust mood levels and see them translated into different flowers.
+Mood Garden is an interactive experience that allows users to express their emotional states through a digital garden. By adjusting five mood sliders — Joy, Calm, Anxiety, Sadness, and Hope — users can transform their feelings into a visual garden filled with flowers.
 
-This feedback document explores how a first-time user might experience the website, including the clarity of its interactions, visual presentation, and overall emotional experience.
+The purpose of this project is not to judge or correct emotions, but to create a gentle and playful space where people can acknowledge their feelings and spend some time with them.
 
-**Note:** The feedback below is an illustrative example of potential user responses, not a record of completed user testing. It should be updated with actual participant feedback after testing.
+## 2. User Experience
 
-## 2. User Experience Scenario
+During the experience, the user first adjusts the five mood sliders according to their current emotional state. After clicking the Grow button, a garden is generated based on their input.
 
-A first-time visitor opens Mood Garden without prior instructions. They are invited to adjust five mood sliders: Joy, Calm, Anxiety, Sadness, and Hope.
+The user can then explore the flowers, interact with them through Water, Feed, and Sunlight, and use the reflection feature to think about their feelings.
 
-After adjusting the sliders, they click the Grow button and see a garden generated according to their emotional input. They then explore the flowers and try the Water, Feed, and Sunlight interactions.
+The experience combines simple interactions with a calming visual environment, making emotional expression feel more approachable and enjoyable.
 
-The user also explores the reflection feature before resetting the garden.
+## 3. User Feedback
 
-## 3. Illustrative User Feedback
+### Overall Impression
 
-### First Impressions
+The experience feels very positive, interesting, and therapeutic. What makes Mood Garden special is the idea that emotions can be given a physical form through flowers and a garden.
 
-The dark background and glowing flowers create a calm and slightly dreamlike atmosphere. The garden metaphor makes the experience feel more personal than a conventional mood-tracking interface.
+Instead of seeing emotions as something frightening, overwhelming, or difficult to deal with, the user begins to see them as something that can be acknowledged and gently cared for.
 
-However, a first-time user might need a little time to understand what the different sliders represent and how their values influence the generated garden.
+### Emotional Connection
 
-### Interaction and Usability
+One of the most meaningful aspects of the experience is the feeling that there is finally a place where emotions can be placed and expressed.
 
-The five mood sliders provide a simple way to express different emotional states. The Grow button is an important part of the experience because it transforms the user's input into a visible result.
+The garden becomes a personal emotional space — a place where different feelings can coexist without needing to be judged as good or bad.
 
-The flower selection and garden care interactions add another layer of engagement. However, the effects of Water, Feed, and Sunlight could be made more immediately noticeable so that users can better understand the purpose of each action.
+Even feelings such as anxiety and sadness are represented as part of the garden rather than something that must be removed. This creates a different perspective on emotional experiences and encourages a more accepting attitude towards them.
 
-### Emotional Experience
+### Interaction and Engagement
 
-The most interesting aspect is the way emotions are represented through flowers rather than numerical scores alone. This makes the experience feel less like an assessment and more like a moment of personal reflection.
+The process of adjusting sliders and watching flowers grow makes emotional expression feel more playful and accessible.
 
-The garden metaphor also communicates the idea that different emotions can exist together. Users do not necessarily need to remove negative feelings; they can simply acknowledge and observe them.
+The Water, Feed, and Sunlight interactions also strengthen the garden metaphor. They give users a sense of participation and make the experience feel more like caring for something personal.
+
+Overall, the interaction is enjoyable and creates a gentle sense of involvement rather than making users feel as though they are completing a psychological test.
 
 ### Suggestions for Improvement
 
-Provide clearer guidance for first-time visitors.
-Make the relationship between mood levels and flower generation easier to understand.
-Improve the visual feedback after using Water, Feed, and Sunlight.
-Make the reflection feature more noticeable.
-Continue refining the animations to maintain a calm and natural atmosphere.
+Although the overall experience is enjoyable, several aspects could be further developed:
+
+Make the relationship between mood levels and generated flowers more intuitive.
+Provide clearer guidance for first-time users.
+Make the visual feedback of Water, Feed, and Sunlight more noticeable.
+Further develop the reflection feature to encourage deeper personal expression.
 
 ## 4. Key Findings
 
-Based on this illustrative scenario, several areas are worth examining during actual user testing:
+The experience highlights several strengths of Mood Garden:
 
-| Area | Observation | Potential Improvement |
-|---|---|---|
-| First-time use | Some interactions may need explanation | Add short instructions |
-| Mood input | Sliders are easy to explore | Clarify how values affect the garden |
-| Flower generation | Creates a visual connection with emotions | Improve the relationship between input and output |
-| Garden care | Adds interactive engagement | Make action feedback more visible |
-| Reflection | Supports the emotional concept | Improve its visibility and accessibility |
+| Area | Feedback |
+|---|---|
+| Emotional expression | Makes it easier to acknowledge and express different feelings |
+| Visual concept | Turns abstract emotions into a personal garden |
+| Interaction | Makes self-reflection playful and engaging |
+| Emotional experience | Creates a gentle, comforting, and accepting atmosphere |
+| Overall impression | An enjoyable and meaningful interactive experience |
 
-## 5. Reflection and Future Improvements
+5. Reflection and Future Improvements
 
-The feedback suggests that the strength of Mood Garden lies in connecting emotional expression with visual interaction. However, an engaging visual experience alone does not guarantee that users will immediately understand how to use the system.
+This feedback reinforces the central idea behind Mood Garden: emotions do not always need to be solved, controlled, or pushed away. Sometimes, they simply need a space where they can exist.
 
-Future development should focus on improving interaction clarity, strengthening visual feedback, and making the emotional meaning of each interaction easier to understand.
+The garden metaphor helps transform the relationship between users and their emotions. By representing feelings as flowers that can be observed and cared for, the project encourages users to approach their emotional states with greater curiosity and acceptance.
 
-Most importantly, actual user testing will help determine whether the intended experience is communicated successfully to people who have never used the website before.
+One of the most valuable outcomes of the experience is the idea that everyone can have their own emotional garden — a place where happiness, calmness, anxiety, sadness, and hope can all grow together.
 
-The project should continue to develop through observation, feedback, and refinement rather than relying solely on the designer's own expectations.
+Future improvements could focus on making the interactions more intuitive, strengthening the connection between emotional input and visual output, and providing more opportunities for personal reflection.
+
+Ultimately, Mood Garden aims to make emotional reflection feel less intimidating and more like a small, enjoyable moment of self-care.
