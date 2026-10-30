@@ -63,7 +63,7 @@ AI tools were used as supporting resources during development, including assista
 
 ## Live Demo
 
-[Add your GitHub Pages URL here]
+[Visit Mood Garden](https://you-xiu-launa.github.io/mood-garden/)
 
 ## Note
 
