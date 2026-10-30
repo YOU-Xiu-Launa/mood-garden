@@ -138,12 +138,31 @@ The purpose of this evaluation is to understand whether the interaction flow is 
 
 ## 6. Use of AI Tools
 
-ChatGPT was used as an AI-assisted development tool during the project. It helped with drafting and refining HTML, CSS, and JavaScript, as well as organising the project documentation.
+### 6.1 AI Tool Used
 
-AI suggestions were treated as references rather than final decisions. The project author reviewed the proposed code and made design decisions about the visual direction, interaction structure, flower composition, animations, and overall experience.
+ChatGPT was used as an AI-assisted tool throughout the development of Mood Garden. It supported the development process, particularly in code drafting, debugging, interaction implementation, and documentation.
 
-AI assistance supported the development process, but the final concept, design direction, and project decisions remain the responsibility of the project author.
+### 6.2 How AI Was Used
 
+During development, ChatGPT assisted with:
+
+**Code Development:** Providing suggestions and draft code for HTML structure, CSS styling, and JavaScript interactions.
+**Debugging:** Helping identify potential coding issues and suggesting ways to improve functionality.
+**Interaction Design:** Supporting the implementation of mood sliders, dynamic flower generation, flower selection, and garden care interactions.
+**Visual Refinement:** Offering suggestions for layout, animation, and visual presentation.
+**Documentation:** Assisting with the organisation and writing of project documentation.
+
+### 6.3 Human Input and Decision-making
+
+AI-generated suggestions were treated as references rather than final decisions. The project direction, emotional concept, visual preferences, feature selection, and final design decisions were determined and reviewed by the project creator.
+
+Generated code and suggestions were adjusted according to the intended user experience. Not every suggestion was adopted, and the final implementation was reviewed through repeated development and refinement.
+
+### 6.4 Critical Reflection
+
+Using ChatGPT helped make the development process more efficient, especially when working with unfamiliar code or resolving technical problems. However, AI-generated code did not always fully match the intended visual style or interaction experience. Some suggestions required further adjustment and testing.
+
+This process highlighted the importance of using AI as a supporting tool rather than relying on it to make design decisions. The final quality of the project depended on evaluating, modifying, and integrating AI-assisted outputs according to the original design goals.
 ## 7. Limitations and Future Development
 
 There are several limitations in the current version:
