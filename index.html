@@ -1,1 +1,58 @@
 
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#152b31"><title>Mood Garden — grow what you feel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Mood Garden home"><span class="brand-icon">✳</span><span><b>mood garden</b><small>a little space to feel things</small></span></a>
+    <span class="top-note"><i></i> YOUR INNER WEATHER, IN BLOOM</span>
+  </header>
+  <main>
+    <section class="intro"><div><p class="eyebrow">A SMALL DAILY RITUAL</p><h1>Give your feelings<br><em>some room to grow.</em></h1></div><p class="intro-copy">Take a breath. Notice what is here. Give your feelings a little room, and see what grows.</p></section>
+    <section class="workspace">
+      <section class="garden-card">
+        <div class="garden-head"><div><p class="eyebrow">YOUR LIVING GARDEN</p><h2 id="gardenTitle">A quiet place to begin</h2></div><div class="moon"><span></span></div></div>
+        <div class="scene" id="scene" aria-label="Interactive night garden">
+          <div class="aurora"></div><div class="hill hill-a"></div><div class="hill hill-b"></div><div class="stars"></div><div class="fireflies" id="fireflies"></div>
+          <div class="ground ground-back"></div><div class="ground ground-front"></div>
+          <div class="empty-state" id="emptyState"><span>✧</span><b>Nothing has bloomed yet</b><p>Choose your feelings, then grow your first flower.</p></div>
+          <div class="plants" id="plants"></div>
+          <div class="scene-bottom"><span><i></i><span id="sceneMessage">Your garden grows at its own pace</span></span><b id="flowerCount">0 FLOWERS</b></div>
+        </div>
+        <div class="garden-foot"><span><i class="legend"></i> Every feeling belongs here.</span><span>Hover or tap a flower to care for it</span></div>
+      </section>
+      <aside class="controls">
+        <div class="step-title"><span class="step-number">01</span><div><h2>Check in with yourself</h2><p>How much of each feeling is here today?</p></div></div>
+        <div class="mood-controls">
+          <div class="mood" data-mood="joy"><div class="mood-top"><span class="mood-symbol joy">☼</span><label for="joy">Joy</label><output id="joyOut">35%</output></div><input id="joy" type="range" min="0" max="100" value="35" aria-label="Joy percentage"><div class="scale"><span>A little</span><span>A lot</span></div></div>
+          <div class="mood" data-mood="calm"><div class="mood-top"><span class="mood-symbol calm">≈</span><label for="calm">Calm</label><output id="calmOut">30%</output></div><input id="calm" type="range" min="0" max="100" value="30" aria-label="Calm percentage"><div class="scale"><span>A little</span><span>A lot</span></div></div>
+          <div class="mood" data-mood="anxiety"><div class="mood-top"><span class="mood-symbol anxiety">〰</span><label for="anxiety">Anxiety</label><output id="anxietyOut">15%</output></div><input id="anxiety" type="range" min="0" max="100" value="15" aria-label="Anxiety percentage"><div class="scale"><span>A little</span><span>A lot</span></div></div>
+          <div class="mood" data-mood="sadness"><div class="mood-top"><span class="mood-symbol sadness">☾</span><label for="sadness">Sadness</label><output id="sadnessOut">10%</output></div><input id="sadness" type="range" min="0" max="100" value="10" aria-label="Sadness percentage"><div class="scale"><span>A little</span><span>A lot</span></div></div>
+          <div class="mood" data-mood="hope"><div class="mood-top"><span class="mood-symbol hope">✧</span><label for="hope">Hope</label><output id="hopeOut">10%</output></div><input id="hope" type="range" min="0" max="100" value="10" aria-label="Hope percentage"><div class="scale"><span>A little</span><span>A lot</span></div></div>
+        </div>
+        <div class="insight" aria-live="polite"><span>✦</span><p id="insightText">A little joy, a little calm — your garden can hold it all.</p></div>
+        <div class="section-rule"></div>
+        <div class="step-title care-title"><span class="step-number">02</span><div><h2>Tend to your garden</h2><p>Select a flower, then give it what it needs.</p></div></div>
+        <div class="action-grid">
+          <button class="action grow" id="growBtn"><span class="action-icon">↟</span><span><b>Grow a flower</b><small>Watch it take root</small></span><span class="action-arrow">↗</span></button>
+          <button class="action water" id="waterBtn"><span class="action-icon">⌁</span><span><b>Water</b><small>Let it soften</small></span><span class="action-arrow">↗</span></button>
+          <button class="action feed" id="feedBtn"><span class="action-icon">✦</span><span><b>Feed</b><small>Help it flourish</small></span><span class="action-arrow">↗</span></button>
+          <button class="action sun" id="sunBtn"><span class="action-icon">☼</span><span><b>Sunlight</b><small>Bring some warmth</small></span><span class="action-arrow">↗</span></button>
+        </div>
+        <div class="feedback" id="feedback" role="status"><span class="feedback-pip"></span><span>Start with a feeling. Your first flower is waiting.</span></div>
+        <div class="control-bottom"><button id="reflectionBtn">A thought to keep <span>↗</span></button><button id="resetBtn">Reset garden ↺</button></div>
+      </aside>
+    </section>
+    <section class="closing"><span>✳</span><p><b>You don't have to bloom every day.</b><br>Some days, taking care is enough.</p><i></i></section>
+  </main>
+  <footer><span>MOOD GARDEN · INTERACTIVE EXPERIENCE</span><span>Made for the days that feel like something.</span></footer>
+</div>
+<dialog id="reflectionDialog"><button class="close" id="closeDialog" aria-label="Close">×</button><p class="eyebrow">A THOUGHT TO KEEP</p><span class="dialog-bloom">✿</span><h2 id="reflectionTitle">You can feel more than one thing.</h2><p id="reflectionText">Your feelings can sit beside each other. You don't have to solve them all tonight.</p><button class="dialog-done" id="dialogDone">I'll keep that in mind</button></dialog>
+<script src="script.js"></script>
+</body></html>
+
