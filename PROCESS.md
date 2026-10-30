@@ -72,15 +72,15 @@ Responsive layouts were added for smaller screens. A reduced-motion preference w
 
 This section should be completed after an actual user has tried the experience.
 
-**Tester:** [Add a first name or anonymous description, with permission.]
+**Tester:** Add a first name or anonymous description, with permission.
 
-**Date and context:** [Add the actual date and testing context.]
+**Date and context:** Add the actual date and testing context.
 
 **Task:** Ask the tester to adjust the mood sliders, grow a garden, select a flower, try one or more care actions, and reset the garden without explaining the interface beforehand.
 
-**Observation:** [Record what the tester did, where they hesitated, what they understood, and any comments they made.]
+**Observation:** Record what the tester did, where they hesitated, what they understood, and any comments they made.
 
-**Design decision:** [Describe a specific change made in response to the observation, or explain why the existing design was retained.]
+**Design decision:** Describe a specific change made in response to the observation, or explain why the existing design was retained.
 
 The purpose of this evaluation is to understand whether the interaction flow is clear and whether the visual feedback communicates the intended experience.
 
