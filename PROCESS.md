@@ -36,21 +36,57 @@ This structure connects emotional input with visual output and gives users an op
 
 ## 4. Design Development and Iteration
 
-Several design decisions were made during development to improve the visual experience and interaction flow.
+Mood Garden went through **nine iterations** during its development. Each version involved reviewing the existing design, identifying weaknesses, and refining the visual presentation or interaction experience. The process was not simply about adding more features, but about gradually finding a balance between visual atmosphere, usability, and meaningful interaction.
 
-### 4.1 Interface Structure
+The development can be broadly divided into three stages:
 
-The interface was organised into two main sections: **Check in with yourself** and **Tend to your garden**. This creates a clearer distinction between expressing emotions and caring for the generated flowers.
+### 4.1 Nine Iterations: From Initial Concept to Final Experience
 
-A two-column slider layout was used to make the five emotional controls easier to scan. The Grow action was given greater visual prominence because it is the main step connecting the mood input to the garden.
+**Iterations 1–3: Establishing the Foundation**
 
-### 4.2 Visual Direction
+The first three iterations focused on turning the initial concept into a functional prototype. The basic interface structure, five emotional categories, mood sliders, and flower-generation mechanism were established.
+
+The main challenge at this stage was translating abstract emotional states into a visual system that users could understand and interact with. The initial versions helped establish the core relationship between emotional input and the garden's visual output.
+
+**Iterations 4–6: Exploring Visual Identity and Interaction**
+
+The middle iterations focused on developing the visual identity and improving the interaction experience. Adjustments were made to the interface layout, colour palette, flower appearance, and feedback mechanisms.
+
+The design gradually moved away from a conventional dashboard-like interface towards a more atmospheric garden environment. The care actions also became an important part of the experience, allowing users to interact with the flowers instead of simply viewing the generated garden.
+
+**Iterations 7–9: Refining the Details**
+
+The final three iterations focused on improving the overall quality and coherence of the experience.
+
+Particular attention was given to creating a darker and more immersive garden atmosphere, making the flower arrangement feel less repetitive, and refining the movement of individual flowers. The Grow action was also given greater visual prominence to establish a clearer interaction hierarchy.
+
+The relationship between the care actions and the garden was further considered, with Water, Feed, and Sunlight designed as supporting interactions within the overall garden experience.
+
+Across these nine iterations, the project gradually developed from a basic emotional visualisation tool into a more complete interactive environment.
+
+### 4.2 Interface Structure
+
+The interface was organised into two main sections: **Check in with yourself** and **Tend to your garden**. This creates a clear distinction between expressing emotions and caring for the generated flowers.
+
+A two-column slider layout was used to make the five emotional controls easier to scan. The Grow action was given greater visual prominence because it is the main step connecting mood input to the garden.
+
+The interaction flow was designed to be straightforward:
+
+1. Users adjust five sliders to represent their current emotional state.
+2. They select Grow to generate a garden based on their mood proportions.
+3. They select individual flowers to explore and interact with them.
+4. They use Water, Feed, and Sunlight to care for the flowers.
+5. They can open a reflection prompt or reset the garden to begin again.
+
+### 4.3 Visual Direction
 
 The visual direction developed around the atmosphere of a night garden. A darker blue-green background, layered landscape elements, soft lighting, and fireflies were used to create a sense of depth and quietness.
 
 Rather than arranging flowers in a regular grid, the final composition uses an irregular meadow-like layout. Flower sizes, positions, and depths vary, allowing the garden to feel more organic.
 
-### 4.3 Flower Generation and Animation
+The intention was to move beyond a typical interface design and create an environment that users could feel immersed in, even through a relatively simple web-based experience.
+
+### 4.4 Flower Generation and Animation
 
 Each emotional category has its own flower colour and visual characteristics. The number of flowers generated reflects the relative proportions of the five mood sliders.
 
@@ -58,15 +94,31 @@ The growth animation was refined to make the process easier to follow. The stem 
 
 Different plants also have slightly different sway speeds and timing. This creates continuous, gentle movement without making the garden feel overly mechanical.
 
-### 4.4 Interaction Feedback
+An important consideration was making the garden feel alive without introducing unnecessary visual distraction. The final direction therefore prioritises subtle, independent movement rather than excessive reactions to mouse hovering.
+
+### 4.5 Interaction Feedback
 
 Flower selection was made more explicit through visual highlighting and short messages. Water, Feed, and Sunlight produce different particle effects and feedback messages.
 
+The Grow action serves as the primary interaction, while the three care actions provide additional ways for users to engage with the garden.
+
 These interactions are intended to make the garden feel responsive while keeping the interface simple and avoiding unnecessary complexity.
 
-### 4.5 Accessibility and Responsiveness
+### 4.6 Accessibility and Responsiveness
 
-Responsive layouts were added for smaller screens. A reduced-motion preference was also included to limit animation for users who prefer less movement.
+Responsive layouts were added for smaller screens so that the interface can adapt to different screen sizes.
+
+A reduced-motion preference was also included to limit animation for users who prefer less movement. Interactive elements were designed with visible focus states to make keyboard interaction easier.
+
+### 4.7 Reflection on the Iteration Process
+
+Working through nine iterations helped me understand that a working prototype is not necessarily a well-designed experience. Some visual effects may look attractive individually but become distracting when combined. Similarly, adding more interactions does not automatically make an experience more meaningful.
+
+One of the main challenges was deciding what to simplify and what to emphasise. For example, the garden needed enough visual detail to feel immersive, but too many decorative elements could compete with the flowers themselves. The interaction design also needed a clear hierarchy so that users could understand the main action without feeling overwhelmed by multiple controls.
+
+The iterative process encouraged me to evaluate the project as a complete experience rather than focusing on individual features in isolation. Each revision helped clarify the relationship between emotional expression, visual generation, and interaction.
+
+Ultimately, the nine iterations allowed Mood Garden to develop from an initial concept into a more coherent digital experience, with a stronger visual identity and a clearer interaction structure.
 
 ## 5. User Testing and Evaluation
 
